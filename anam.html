@@ -10,7 +10,7 @@
 </head>
 
 <body bgcolor="pink">
-    <h1>Happpy Birthday Anam!!! </h1>
+    <h1>Happpy Birthday Anam !!! </h1>
     <p>
         You shine so much brightness and joy into the lives of everyone around you.
         Thanks for being such an amazing person and best friend, and I hope that today on your birthday,
@@ -34,8 +34,9 @@
 
     </P>
 
-    <audio   controls autoplay 
-      >
+    <img src="bddimg.jpg" alt="error" height="200px" width="300px"><br>
+    <audio controls autoplay>
+
         <source src="song.mp3" type="audio/mp3">
     </audio>
 
@@ -50,21 +51,17 @@
             <img src="bdday.jpg" height="400px" width="400px">
         </div>
         <div id="video">
-            <video width="400px" height="400px" autoplay loop muted class="vidselector">
+            <video width="400px" height="350px" autoplay loop muted class="vidselector">
                 <source src="video.mp4" type="video/mp4">
             </video>
         </div>
 
-        <div >
-            <button type="button"><b>cut the cake</b></button>
 
-        </div>
     </div>
 
-
-
-
-
+    <button onclick="document.getElementById('myImage').src='fullcake.jpg'"><B> Go back</B></button>
+    <button onclick="document.getElementById('myImage').src='cutcake.jpg'"><B>cut the cake</B></button>
+    <img id="myImage" src="fullcake.jpg" width="400px" height="400px">
 
 </body>
 
