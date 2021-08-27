@@ -1,7 +1,9 @@
 #img{
-    border: 1px solid blue;
-    padding: 20px;
-   height: 400px;
+
+    padding: 1px  30%;
+ 
+  display: inline-table;
+   width: 100vh;
 }
 #img1{
     
@@ -9,26 +11,30 @@
     color: blue;
     width: 400px;
     height: 400px;
-    float: left;
-    position: absolute;
+   
+    display: inline-block:
+    position: relative;
 
 }
 #img2{
     border-style: solid ;
     color: blue;
-    width: 400p;
+    width: 400px;
     height: 400px;
-    float: right;
-    padding-bottom:auto;
+    display: inline-block:
+    
+    
 }
 h1{
     text-align: center;
+    width: 100%;
     background-color: blue;
 }
 button {
     border-radius: 27px;
-    position: absolute;
-    
+    display:inline-block;
+    margin-top: 20px;
+    top: 1px;
     right: 46%;
     background: red;
      width: 100px;
@@ -39,18 +45,26 @@ button :hover{
     color:white;
 }
 #video{
-  
-   color: blue;
+   
+
     height: 400px;
-    width: 500px;
-    position: absolute;
-    left: 35%;
+    width: 470px;
+  
+    display: inline-block:
+    
 }
 p{
     font-family: sans-serif;
+    
+    width: calc(100%-20%);
     font-size: 25px;
     color: rgb(228, 7, 7);
     text-align: center;
 }
+#myimage{
+    width: 400px;
+    height: 400px;
+    position: relative;
+        
 
-    
+}
