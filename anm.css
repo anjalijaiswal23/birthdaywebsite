@@ -99,6 +99,8 @@ p{
 }
 
 
-body{
-    background-image: url(teddy.jpg);  
+header{
+    background-image: linear-gradient(rgba(122, 188, 233, 0.5),rgba(224, 229, 149, 0.5)),url(teddy2.jpg); 
+    background-position: center; 
+   
 }
