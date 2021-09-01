@@ -95,4 +95,10 @@ p{
     border: 2px solid  rgb(0, 110, 255);
     background-color: rgb(143, 205, 229);
     color:blue;
+    
+}
+
+
+body{
+    background-image: url(teddy.jpg);  
 }
