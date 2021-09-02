@@ -1,6 +1,6 @@
 #img{
-    margin-left: 1px;
-    margin-right: 10px;
+    margin-left: 370px;
+   
     
 
   
@@ -9,7 +9,7 @@
     
     border-style: solid ;
     color: rgb(59, 109, 88);
-    width: 400px;
+    width: 500px;
     height: 400px;
  
 }
@@ -17,7 +17,7 @@
     
     border-style: solid ;
     color: rgb(59, 109, 88);
-    width: 400px;
+    width: 500px;
     height: 400px;
    
   
@@ -45,8 +45,9 @@ button :hover{
 }
 
 #video{
+   
     height: 400px;
-    width: 470px;
+    width: 500px;
 }
    
 p{
@@ -64,9 +65,11 @@ p{
 
 }
 .audio{
+    margin-left: 488px;
    width: 300px;
    border: 2px solid red;
-   position: relative;
+  
+  
 }
 #t1{
     border-radius: 27px;
@@ -98,4 +101,53 @@ body{
     margin-top: 0; 
     margin-left: 0;
     margin-right: 0;
+}
+@media  screen and ( max-width: 487px){
+    h1{  
+      margin: 0;
+   
+      text-align: center;
+      width: 161%;
+      background-color: rgb(11, 154, 236);
+
+    }
+    P{
+    font-family:cursive;
+    
+    width: 161%;
+    font-size: 28px;
+    color: rgb(240, 236, 22);
+    text-align: center;
+
+     }
+      #t{
+      width: 293px;
+     border-radius: 27px;
+        border: 2px solid rgb(0, 110, 255);
+        background-color: rgb(143, 205, 229);
+        color: blue;
+    }
+    .adioimg{
+        margin-left: 0;
+    }
+    .audio{
+        margin-left: 115px;
+       width: 300px;
+       border: 2px solid rgb(36, 82, 40);
+
+  }
+  #img{
+    margin-left: 43px;
+    
+  
+}
+button{
+    border-radius: 27px;
+   margin-left: 7px;
+    
+    right: 46%;
+    background: rgb(13, 253, 5);
+     width: 116px;
+     height: 38px;
+}
 }
