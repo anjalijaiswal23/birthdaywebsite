@@ -1,33 +1,30 @@
 #img{
+    margin-left: 1px;
+    margin-right: 10px;
+    
 
-    padding: 1px ;
-    padding-left: -3px;
-   
- 
-  display: inline-table;
-   width: 100vh;
+  
 }
 #img1{
     
     border-style: solid ;
-    color: blue;
+    color: rgb(59, 109, 88);
+    width: 400px;
+    height: 400px;
+ 
+}
+#img2{
+    
+    border-style: solid ;
+    color: rgb(59, 109, 88);
     width: 400px;
     height: 400px;
    
-    display: inline-block:
-    position: relative;
-
-}
-#img2{
-    border-style: solid ;
-    color: blue;
-    width: 400px;
-    height: 400px;
-    display: inline-block:
-    
-    
+  
 }
 h1{
+    margin: 0;
+ 
     text-align: center;
     width: 100%;
     background-color: rgb(11, 154, 236);
@@ -50,8 +47,8 @@ button :hover{
 #video{
     height: 400px;
     width: 470px;
-    display: inline-block;   
 }
+   
 p{
     font-family: cursive ;
     
@@ -61,7 +58,6 @@ p{
     text-align: center;
 }
 #myimage{
-   border: 1px black;
     width: 400px;
     height: 400px;
     position: relative;
@@ -97,13 +93,9 @@ p{
     color:blue;
     
 }
-
-
-header{
-    background-image: linear-gradient(rgba(122, 188, 233, 0.5),rgba(224, 229, 149, 0.5)),url(teddy2.jpg); 
-    background-position: center; 
-    
-}
 body{
-    background-color: rgba(122, 188, 233, 0.5);
+    background-image: linear-gradient(rgba(122, 188, 233, 0.5),rgba(224, 229, 149, 0.5)),url(teddy2.jpg); 
+    margin-top: 0; 
+    margin-left: 0;
+    margin-right: 0;
 }
